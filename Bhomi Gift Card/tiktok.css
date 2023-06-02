@@ -1,0 +1,294 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar
+{
+    padding: 1px 0px;
+    background-color: black !important;
+    border-bottom: none !important;
+}
+
+.navbar ul li a
+{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: Bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover 
+{
+    color:deepskyblue !important;
+}
+
+.navbar-toggle
+{
+    border: 1px solid white !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle:hover{
+    background-color: deepskyblue !important;
+}
+
+.navbar-inverse .navbar-collapse
+{
+    border-color: Black !important;
+}
+
+.card
+{
+width: 100%;
+height: 250px;
+}
+.card img
+ {
+width: 50%;
+height: 500px;
+}
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #23232a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.select {
+    background: #212f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+
+}
+
+.select:hover {
+background: #323741;
+}
+
+.caret {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+
+.caret-rotate 
+{
+    transform: rotate(180deg);
+}
+
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    width: 100%;
+    transform: translate(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #2a2d35;
+
+}
+
+.active {
+background: #23232a;
+}
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+
+.contact-infos
+{
+    width: 100%;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 15px;
+}
+
+
+.contact-infos .fa
+{
+color: white;
+font-size: 26px;
+border: 1px solid white;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+line-height:50px;
+overflow-y: hidden;
+}
+
+.contact-infos p
+{
+    color: white;
+    margin-top: 15px;
+   
+}
+
+<!--------------Maps-------------------------->
+
+.maps
+{
+    margin-top: 40px;
+}
+
+<!-------------Footer Area ------------------------->
+
+.footer
+{
+    background-image: url(/img/logo\ final.jpg);
+    background-size: cover;
+    padding-bottom: 12px;
+    padding-top: 14px;
+}
+
+.social-icons a
+{
+    margin: 0 16px 20px 16px;;
+    display:inline-block;
+}
+
+.footer .fa 
+{
+    font-size: 30px;
+    color:deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 4px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+    padding: 10px;
+    transform: rotate(360 deg);
+    overflow: hidden;
+}
+
+.social-icom a:hover .fa 
+{
+    border: 10px solid white; 
+    transform: rotate(360 deg);
+    
+}
+
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+.dropdown 
+{
+    width: 40%;
+    position: relative;
+    margin: 2em;
+    float: right;
+    margin-top:  -500px;
+    
+}
+
+.dropdown *{
+box-sizing: border-box;
+text-align: center;
+}
+.topup-section{
+    height:500px;
+    width:47%;
+
+    float:right;
+    margin-top: -523px;
+}
+
+
+.topup{
+    
+    
+    width:100%;
+    background-color: #212f3b;
+    color:white;
+    font-size: 20px;
+    height:40px;
+    margin-bottom: 20px;
+
+    
+}
+.topup-button{
+    background-color: #212f3b;
+    color: white!important;;
+    width:100%;
+    text-align: left!important;
+    
+    
+}
+.topup-button:hover{
+    color:red!important;
+}
+.topup-amount{
+    width:100% !important;
+    
+}
+.topup-amount li a{
+    text-align: left;
+}
+.username,.number{
+    width:100%;
+    height:35px;
+    margin-bottom: 20px;
+}
+.submit{
+    width:100px;
+    background-color: blue;
+    color:white;
+    height:35px;
+}
